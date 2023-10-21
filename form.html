@@ -1,0 +1,128 @@
+<html>
+<head>
+<title> my application forms</title>
+<script src="javascript1.js">
+</script>
+<style>
+  h4{
+     position:absolute;
+     top:300px;
+     color:red;
+    }
+ h5{
+     position:absolute;
+     top:318px;
+     color:red;
+    }
+ c{
+     position:absolute;
+     top:230px;
+     color:red;
+    }
+ v{
+     position:absolute;
+     top:280px;
+     color:red;
+    }
+ z{
+     position:absolute;
+     top:840px;
+     color:red;
+    }
+ k{
+     position:absolute;
+     top:395px;
+     color:red;
+    }
+ reg{
+     position:absolute;
+     top:805px;
+     color:red;
+    }
+ ur{
+     position:absolute;
+     top:185px;
+     color:red;
+    }
+ ge{
+     position:absolute;
+     top:945px;
+     color:red;
+    }
+        body{
+        background-image:url('img2.jpg');
+        background-size: 160%;
+	    background-repeat:no-repeat;
+        }
+	  img{
+		display:block;
+		width: 200px;
+		margin: 18px 2px 0 35px;
+	  }
+	  section .leftBox {
+            width: 50%;
+            height: 100%;
+            float: left;
+            padding: 50px;
+            box-sizing: border-box;
+        }
+        section .leftBox .content {
+            color: white;
+            background: rgba(0, 0, 0, 0.5);
+            padding: 40px;
+            transition: .5s;
+        }
+
+</style>
+</head>
+<body>
+<section>
+<div class="leftBox">
+           <div class="content">
+<h1> Application Forms </h1>
+<form name="myform" onsubmit="return validate()">
+<label for="userid">User id:</label>
+<input type="text" name="userid" size="12" /></br></br>
+<label> Name: </label>
+<input type="text" Name="name" ><span id="numloc"></span>
+</br></br>
+<label> password: </label>
+<input type="password" Name="password"><span id="numloc"></span></br></br>
+Enter Mobile Number <input type="text" name="num"><span id="numloc"></span></br></br>
+<label> DOB: </label>
+<input type="date">
+</br>
+</br>
+AGE:<input type="text" name="age"><span id="numloc"></span></br></br>
+<label> Gender</label>
+<input type="radio" name="gender" value="male">Male
+<input type="radio" name="gender" value="female">female
+</br>
+</br>
+<label> Email: </label>
+<input type="email" >
+</br>
+<label> Languages: </label>
+<input type="checkbox" name="languages" value="c">c
+<input type="checkbox" name="languages" value="c++">c++
+<input type="checkbox" name="languages" value="java"> java
+</br>
+</br>
+<h3>Department:</h3><br/><input type="text" name="dep"/><br/>
+</br>
+<label> comments: </label><br>
+<textarea rows="10" cols="20" name="comments"></textarea><span id="numloc"></span>
+</br>
+</br>
+upload resume:<input type="file" id="myFile" name="file"><span id="numloc"></span><br></br>
+</br>
+<label> choose your color: </label><input type="color"></br></br>
+Zipcode<input type="text" name="Zipcode"><span id="numloc"></span><br></br>
+<input type="submit" value="submit">
+</form>
+</div>
+</div>
+</section>
+</body>
+</html>
+
